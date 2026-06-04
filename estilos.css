@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color:#08083b;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Saira", sans-serif;
+}
+
+.carta-batalla {
+    width: 500px;
+    margin: 10px auto;
+    background-color: black;
+    padding: 4%;
+    border-radius: 35px;
+    box-shadow: 10px 10px 1px #163489;
+}
+
+.carta-batalla.activa {
+    border: 10px solid red;
+}
+
+.carta-batalla:hover {
+    transform: translateY(-8px);
+    box-shadow: 20px 20px 5px #163489;
+}
+
+.avatar {
+    width: 100%;
+    float: left;
+    margin: auto;
+    text-align: center;
+}
+
+.avatar img {
+    width: 20%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 60px;
+    padding: 10px;
+}
+
+.title-card {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    clear: both;
+    margin-bottom: 2%;
+}
+
+.title-card h1, .title-card h2 {
+    margin: 0;
+}
+
+.title-card h1 {
+    width: 70%;
+    text-align: left;
+    float: left;
+}
+
+.title-card h2  {
+    width: 26%;
+    float: right;
+    background-color: white;
+    padding: 1%;
+    color: #163489;
+    border-radius: 20px;
+}
+
+.estadistica-set {
+    padding: 5px;
+}
+
+.estadistica-set h3 {
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    background-color: white;
+    color: purple;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+}
+
+.rareza {
+    text-align: center;
+    border: 1px solid blue;
+    width: 96%;
+    height: 40px;
+    clear: both;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.rareza h2, .rareza h3 {
+    margin: 0;
+}
+
+.rareza h2 {
+    width: 40%;
+    text-align: center;
+    float: left;
+}
+
+.rareza h3  {
+    width: 56%;
+    float: right;
+    border: 1px solid white;
+    padding: 1%;
+    color: white;
+    border-radius: 20px;
+}
+
+.estadistica {
+    background-color: white;
+}
+
+.html_bar, .css_bar, .js_bar {
+    background-color: #163489;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.html_bar {
+    width: 90%;
+}
+
+.css_bar {
+    width: 85%;
+}
+
+.js_bar {
+    width: 45%;
+}
+
+.habilidad {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: purple;
+    color: aqua;
+    text-align: center;
+}
+
+.habilidad .img-hab {
+    width: 100%;
+    margin: 0 0 5px;
+    text-align: center;
+}
+
+.habilidad .img-hab img {
+    width: 20%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.habilidad .img-hab p {
+    background-color: aqua;
+    width: 30%;
+    margin: 0 auto 10px;
+    padding: 5px;
+    color: #163489;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.habilidad h2 {
+    margin: 0 0 5px 0;
+    color: #FFF;
+}
+
+.habilidad p.contar {
+    margin: 15px 0 0 0;
+}
+
+.habilidad p {
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    background-color: #163489;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: -4px -7px 5px inset #08083b;
+}
